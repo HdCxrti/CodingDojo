@@ -1,8 +1,8 @@
-<svg width="513" height="540" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+<svg width="622" height="610" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
     xml:space="preserve" overflow="hidden">
     <defs>
         <clipPath id="clip0">
-            <rect x="1943" y="1073" width="513" height="540" />
+            <rect x="1869" y="1073" width="622" height="610" />
         </clipPath>
         <clipPath id="clip1">
             <rect x="2035" y="1072" width="330" height="331" />
@@ -14,7 +14,7 @@
             <rect x="2035" y="1072" width="330" height="331" />
         </clipPath>
     </defs>
-    <g clip-path="url(#clip0)" transform="translate(-1943 -1073)">
+    <g clip-path="url(#clip0)" transform="translate(-1869 -1073)">
         <g clip-path="url(#clip1)">
             <g clip-path="url(#clip2)">
                 <g clip-path="url(#clip3)">
@@ -24,6 +24,6 @@
                 </g>
             </g>
         </g><text fill="#00B050" font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
-            font-size="147" transform="matrix(1 0 0 1 2031.52 1486)">HdCxrti</text>
+            font-size="147" transform="matrix(1 0 0 1 1957.72 1556)">HdCxrti</text>
     </g>
 </svg>
