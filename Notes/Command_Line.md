@@ -66,3 +66,47 @@ Copy-Item -Path .\index.html -Destination .\index_2.html
     </tbody>
 </table>
 ```
+### Input Text
+```ps
+<label for="first_name">First Name:</label>
+<input type="text" id="first_name" name="first_name">
+<label for="last_name">Last Name:</label>
+<input type="text" id="last_name" name="last_name">
+<label for="email">Email:</label>
+<input type="text" id="email" name="email">
+```
+### Input Password
+```ps
+<label for="password">Password</label>
+<input type="password" id="password" name="password">
+```
+### Dropdown Menu
+```ps
+<select name="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="decline">Prefer not to say</option>
+</select>
+```
+### CheckBoxes
+```ps
+<label for="blue">Blue</label>
+<input type="checkbox" id="blue" name="color" value="blue">
+<label for="green">Green</label>
+<input type="checkbox" id="green" name="color" value="green">
+<label for="red">Red</label>
+<input type="checkbox" id="red" name="color" value="red">
+<label for="black">Black</label>
+<input type="checkbox" id="black" name="color" value="black">
+<label for="purple">Purple</label>
+<input type="checkbox" id="purple" name="color" value="purple">
+```
+### Longer Text
+```ps
+<textarea name="description"></textarea>
+```
+### Submit Button!
+```ps
+<input type="submit" value="Submit">
+```
+
