@@ -1,4 +1,4 @@
-# Command line notes
+# Notes
 ## PowerShell Cheat Sheet
 
 ### Copy and paste file
