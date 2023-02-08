@@ -121,19 +121,17 @@
                       </v-radio-group>
 
                       <v-textarea
-                      name="input-4-1"
-                      label="A short description about yourself"
-                      value=""
-                    ></v-textarea>
+                        name="input-4-1"
+                        label="A short description about yourself"
+                        value=""
+                      ></v-textarea>
 
-                    <v-select
-                    :items="items"
-                    label="Favorite Language"
-                  ></v-select>
-
+                      <v-select
+                        :items="items"
+                        label="Favorite Language"
+                      ></v-select>
                     </v-form>
                   </v-list-item>
-                  
 
                   <v-card-actions>
                     <v-btn outlined rounded text> Submit </v-btn>
@@ -165,10 +163,10 @@
           menu: false,
           modal: false,
           male: false,
-          female:false,
-          other:false,
+          female: false,
+          other: false,
           row: null,
-          items:["HTML", "CSS", "JavaScript"],
+          items: ["HTML", "CSS", "JavaScript"],
           nameRules: [
             (v) => !!v || "Name is required",
             (v) =>

@@ -1,38 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style></style>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        max-width: 400px;
+        background-color: rgb(90, 142, 219);
+        padding: 55px calc(32vw);
+      }
+      .main {
+        display: flex;
+        background-color: darkgrey;
+      }
+      form {
+        background-color: rgb(133, 191, 133);
+      }
+    </style>
     <title>My Registration Form</title>
   </head>
 
   <body>
-    <form action="" method="post">
-      <p>First Name: <input type="text" name="firstName" /></p>
+    <div class="main">
+      <div class="container">
+        <form action="" method="">
+          <h1 style="text-align: center">My Registration Form</h1>
+          <div class="row">
+            First Name: <input type="text" name="firstName" />
+          </div>
+          <div class="row">
+            Last Name: <input type="text" name="lastName" />
+          </div>
+          <div class="row">Email: <input type="email" name="email" /></div>
+          <div class="row">
+            Password: <input type="password" name="password" />
+          </div>
+          <div class="row">
+            Password Confirm: <input type="password" name="password" />
+          </div>
+          <div class="row">Birthday: <input type="date" name="birthday" /></div>
+          <div>
+            <input type="radio" name="sex" id="Male" />
+            <label for="Male">Male</label>
+            <input type="radio" name="sex" id="Female" />
+            <label for="Female">Female</label>
+            <input type="radio" name="sex" id="Other" />
+            <label for="Other">Other</label>
+          </div>
+          A short description about yourself
+          <textarea name="description"></textarea>
+          Favorite Language
 
-      <p>Last Name: <input type="text" name="lastName" /></p>
-      <p>Email: <input type="email" name="email" /></p>
-      <p>Password: <input type="password" name="password" /></p>
-      <p>Password Confirm: <input type="password" name="password" /></p>
-      <p>Birthday: <input type="date" name="birthday" /></p>
-      <p>
-        <input type="radio" name="sex" id="Male" />
-        <label for="Male">Male</label>
-        <input type="radio" name="sex" id="Female" />
-        <label for="Female">Female</label>
-        <input type="radio" name="sex" id="Other" />
-        <label for="Other">Other</label>
-      </p>
-      <p>A short description about yourself</p>
-      <textarea name="description"></textarea>
-      <p>Favorite Language</p>
-      <select name="favoritelanguage">
-        <option value="JavaScript">JavaScript</option>
-        <option value="HTML">HTML</option>
-        <option value="CSS">CSS</option>
-      </select>
-      <p><input type="submit" value="SUBMIT" /></p>
-    </form>
+          <select name="favoritelanguage">
+            <option value="JavaScript">JavaScript</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">css</option>
+          </select>
+
+          <input type="submit" value="SUBMIT" />
+        </form>
+      </div>
+    </div>
   </body>
 </html>
