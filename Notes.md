@@ -274,3 +274,11 @@ Copy-Item -Path .\index.html -Destination .\index_2.html
     <source src="movie.mp4">
 </video>
 ```
+
+### Adding a Canvas
+
+```ps
+<canvas id="work_of_art" width="400" height="200">
+    <p>Your browser does not support canvas</p>
+</canvas>
+```
