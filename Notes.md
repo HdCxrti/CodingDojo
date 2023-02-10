@@ -282,3 +282,123 @@ Copy-Item -Path .\index.html -Destination .\index_2.html
     <p>Your browser does not support canvas</p>
 </canvas>
 ```
+
+### Applying display flex
+
+```ps
+#dojo {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    display: flex; /* this line is new! */
+}
+```
+
+### Fixing the stretch
+
+```ps
+#dojo {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center; /* this line is new! */
+}
+```
+
+### Justify Content - Flex-Start
+
+```ps
+#dojo {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* this line is new */
+}
+```
+
+### Justify Content - Center
+
+```ps
+#dojo {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+```
+
+### Justify Content - Flex end
+
+```ps
+#dojo {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+```
+
+### Justify Content - Space between
+
+```ps
+#dojo {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+```
+
+### Justify Content - Space evenly
+
+```ps
+#dojo {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+```
+
+### Justify Content - Space around
+
+```ps
+#dojo {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+```
+
+### The Flex Shorthand
+
+```ps
+<div class="row">
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+</div>
+
+.row {
+    display: flex;
+}
+.col {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightcyan;
+}
+```
