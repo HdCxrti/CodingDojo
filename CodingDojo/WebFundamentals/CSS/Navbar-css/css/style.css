@@ -1,0 +1,34 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  justify-content: space-between;
+  background-color: #6495ed;
+  width: 500px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100px;
+  width: calc(100vw);
+}
+.nav-links {
+  display: flex;
+  width: 806px;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.navbar img {
+  height: 62px;
+}
+.navbar h1 {
+  flex: auto;
+  color: white;
+}
+ul.nav-links li a {
+  color: white;
+  text-decoration: none;
+}

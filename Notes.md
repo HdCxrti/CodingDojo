@@ -402,3 +402,15 @@ Copy-Item -Path .\index.html -Destination .\index_2.html
     background-color: lightcyan;
 }
 ```
+
+### Cheaterbar
+
+```ps
+.cheater-bar {
+  background-image: url("../Images/CheaterBar.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: calc(100vw);
+}
+```
