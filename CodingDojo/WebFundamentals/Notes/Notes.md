@@ -407,3 +407,9 @@ Copy-Item -Path .\index.html -Destination .\index_2.html
 Here is a great explanation of what CSS resets are, why we use them, and some examples:
 
 http://perishablepress.com/a-killer-collection-of-global-css-reset-styles/
+
+### Adjust image with and height
+
+```html
+<img src="___" width="___" height="___" />
+```
