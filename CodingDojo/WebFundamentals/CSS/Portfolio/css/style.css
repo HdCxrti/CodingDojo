@@ -28,7 +28,7 @@
 .footer {
   background-color: rgba(139, 0, 0, 0.505);
   width: 914px;
-  height: 65px;
+  height: 58px;
   margin-top: 29px;
   text-align: center;
   padding-top: 7px;
@@ -93,6 +93,7 @@ ul {
 li {
   float: left;
   text-decoration: underline;
+  margin-left: 30px;
 }
 li a {
   display: block;
@@ -101,9 +102,9 @@ li a {
   text-decoration: none;
 }
 .about {
-  display: inline-block;
-  width: 274px;
-  height: 37px;
+  width: 456px;
+  height: 40px;
+  display: flex;
   background-color: rgba(0, 255, 255, 0.471);
 }
 img {
