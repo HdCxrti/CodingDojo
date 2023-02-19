@@ -30,7 +30,7 @@
   display: inline-block;
 }
 .footer {
-  background-color: rgba(139, 0, 0, 0.505);
+  background-color: rgb(247 247 247);
   width: 914px;
   height: 58px;
   margin-top: 29px;
@@ -64,19 +64,20 @@
   margin: -5px;
   margin-left: 23px;
   margin-top: 1px;
+  vertical-align: top;
 }
 .box456 {
-  background-color: rgba(192, 11, 11, 0.566);
+  background-color: rgba(137, 136, 149, 0.304);
   width: 274px;
   height: 37px;
   display: inline-block;
 }
 .box789 {
-  background-color: rgba(255, 140, 0, 0.438);
+  background-color: rgba(137, 136, 149, 0.342);
   width: 274px;
   height: 37px;
   display: inline-block;
-  margin-top: 290px;
+  margin-top: 127px;
 }
 h1 {
   padding-left: 10px;
@@ -114,7 +115,7 @@ li a {
   width: 456px;
   height: 40px;
   display: inline-block;
-  background-color: rgba(0, 255, 255, 0.471);
+  background-color: rgb(137 136 149);
 }
 img {
   padding-bottom: 19px;
@@ -136,4 +137,26 @@ img {
   font-family: auto;
   margin-top: 2px;
   margin: 10px;
+}
+p {
+  margin: 10px 20px 10px 10px;
+  font-size: 16px;
+}
+p a {
+  color: #000028;
+}
+.box456 h4 {
+  font-size: 19px;
+  color: white;
+  margin: 8px 10px;
+}
+.box3 img {
+  width: 274px;
+  height: 143px;
+  display: inline-block;
+}
+.box789 h4 {
+  font-size: 19px;
+  color: white;
+  margin: 8px 10px;
 }
