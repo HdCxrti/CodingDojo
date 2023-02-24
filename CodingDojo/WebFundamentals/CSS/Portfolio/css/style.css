@@ -97,7 +97,7 @@ ul {
   padding: 0;
   overflow: hidden;
   text-align: center;
-  padding-left: 314px;
+  padding-left: 271px;
   padding-top: 8px;
 }
 li {
@@ -166,9 +166,10 @@ p a {
   color: #656265;
 }
 .deez {
-  height: 150px;
+  height: 100px;
   width: 274px;
   background-color: rgba(128, 255, 0, 0.489);
+  padding: 2px 0px 0px 0px;
 }
 .box3 p {
   font-family: sans-serif;
@@ -183,4 +184,25 @@ p a {
 
 .list img {
   width: 25px;
+}
+.deez img {
+  width: 40px;
+  height: 40px;
+  padding: 10px 0px 0px 10px;
+  margin: -4px -5px -2px 3px;
+}
+
+input[type="submit"] {
+  background-color: #407d61;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #888888;
+}
+
+.SumbitButton {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 8px 0px 0px 0px;
 }
