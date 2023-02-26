@@ -3,20 +3,18 @@
   padding: 0px;
 }
 .header {
-  background-color: rgba(0, 128, 0, 0.455);
+  background-color: rgb(255, 255, 255);
   width: 914px;
   height: 60px;
   text-align: center;
   display: inline-block;
 }
 .hero {
-  background-color: rgba(4, 0, 128, 0.534);
   width: 914px;
   height: 300px;
   display: inline-block;
 }
 .main {
-  background-color: rgba(137, 43, 226, 0.723);
   width: 914px;
   height: 545px;
   display: inline-block;
@@ -32,7 +30,6 @@
   font-size: 18px;
 }
 .box1 {
-  background-color: rgba(0, 100, 0, 0.508);
   width: 387px;
   height: 258px;
   display: inline-block;
@@ -40,7 +37,7 @@
   margin-left: 23px;
 }
 .box2 {
-  background-color: rgba(100, 0, 62, 0.508);
+  background-color: #e3d7e2;
   width: 456px;
   height: 258px;
   display: inline-block;
@@ -49,8 +46,8 @@
   margin-top: 18px;
 }
 .box3 {
+  background-image: linear-gradient(to right, #fefefe, #dbccda);
   vertical-align: bottom;
-  background-color: rgba(165, 192, 11, 0.563);
   width: 274px;
   height: 520px;
   display: inline-block;
@@ -60,13 +57,13 @@
   vertical-align: top;
 }
 .box456 {
-  background-color: rgba(137, 136, 149, 0.304);
+  background-image: linear-gradient(#8b8996, #abaaaf);
   width: 274px;
   height: 37px;
   display: inline-block;
 }
 .box789 {
-  background-color: rgba(137, 136, 149, 0.342);
+  background-image: linear-gradient(#8b8996, #abaaaf);
   width: 274px;
   height: 37px;
   display: inline-block;
@@ -106,8 +103,10 @@ li {
 }
 .box1 img {
   width: 387px;
-  height: 258px;
+  height: 248px;
   display: inline-block;
+  border-style: outset;
+  border-width: 5px;
 }
 .aboutbox h4 {
   font-size: 19px;
@@ -160,7 +159,6 @@ p a {
 .deez {
   height: 100px;
   width: 274px;
-  background-color: rgba(128, 255, 0, 0.489);
   padding: 2px 0px 0px 0px;
 }
 .box3 p {
