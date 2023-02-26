@@ -9,14 +9,6 @@
   text-align: center;
   display: inline-block;
 }
-.cheater-bar {
-  background-image: url("../Images/portfolio_assignment.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 970px;
-  width: 1029px;
-  display: inline-block;
-}
 .hero {
   background-color: rgba(4, 0, 128, 0.534);
   width: 914px;
