@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Creating Variables</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+</head>
+
+<body>
+    <section class="py-4 py-xl-5">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+                    <div class="card mb-5">
+                        <div class="card-body p-sm-5">
+                            <div class="alert alert-success" role="alert" id="Yes" style="display: none;" onclick="document.querySelector(&quot;#Yes&quot;).style.display = &#39;none&#39;"><i class="far fa-thumbs-up"></i><span>Able to Ride</span></div>
+                            <div class="alert alert-danger" role="alert" id="No" style="display: none;" onclick="document.querySelector(&quot;#No&quot;).style.display = &#39;none&#39;"><i class="far fa-thumbs-down"></i><span>Can't Ride</span></div>
+                            <h2 class="text-center mb-4">Ride or Not</h2>
+                            <form method="post">
+                                <div class="mb-3"><input class="form-control" type="number" id="age" name="Age" placeholder="Age" onkeydown=""></div>
+                                <div class="mb-3"><input class="form-control" type="number" id="height" name="Height" placeholder="Height"></div>
+                                <div class="mb-3"></div>
+                                <div><button class="btn btn-primary d-block w-100" type="button" onclick="RideorNot();">Rider Check</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Script.js"></script>
+</body>
+
+</html>
