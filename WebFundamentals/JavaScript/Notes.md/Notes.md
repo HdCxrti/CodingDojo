@@ -29,7 +29,9 @@ console.log(myVar); //undefined would be printed to your console!
 
 ### Null
 
+```js
 **Null** and **undefined** are sometimes incorrectly used interchangeably. They are very different! As you read above, undefined is the value that is given to a variable that has not yet explicitly been assigned a value. **Null** is a value that is explicitly assigned, and often used when wanting to explicitly state that nothing is currently being held in this variable.
+```
 
 ### Boolean
 
