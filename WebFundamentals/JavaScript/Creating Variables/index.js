@@ -3,7 +3,7 @@ function RideorNot() {
   let age = document.querySelector("#age").value;
   let height = document.querySelector("#height").value;
   if (height < 42) {
-    console.log("Can't ride");
+    console.log("Can't ride"); alert ("You too short bro")
     document.querySelector("#No").style.display = "block"; // Displays Danger Message
     setTimeout(() => {
       document.querySelector("#No").style.display = "none"; // Hides Danger Message
