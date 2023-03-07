@@ -43,11 +43,12 @@ While we don't dive too deep into math when programming, we do still use some of
 
 This is also known as calculating the **remainder**. Basically, we can see if 2 numbers were to be divided, would anything remain.
 
-````js
-console.log(5 % 2) //This would print 1
-console.log(6 % 2) //This would print 0
-console.log(8 % 3) //This would print 2copy
+```js
+console.log(5 % 2); //This would print 1
+console.log(6 % 2); //This would print 0
+console.log(8 % 3); //This would print 2copy
 ```
+
 This is especially useful to see if some number is divisible by another. In the example above, since there was a remainder of 1 with 5%2, it means that 5 is not evenly divisible by 2. However, since 6%2 gives a remainder of 0, we can say that 6 is divisible by 2.
 
 ### Removing Decimal Places
@@ -57,37 +58,61 @@ When dividing numbers we often find ourselves with some decimal. However, many t
 ### **Math.round(num)**
 
 This rounds a number like we are used to. If the decimal is .5 or up it will round up to the next number, where if the number is .49 or below it will round down:
+
 ```js
-var num1 = Math.round(2.5) //num1 is 3
-var num2 = Math.round(2.4) //num2 is 2
-var num3 = Math.round(-2.9) //num3 is -3
-var num4 = Math.round(-2.1) //num4 is -2copy
+var num1 = Math.round(2.5); //num1 is 3
+var num2 = Math.round(2.4); //num2 is 2
+var num3 = Math.round(-2.9); //num3 is -3
+var num4 = Math.round(-2.1); //num4 is -2copy
 ```
+
 ### **Math.floor(num)**
 
 This always rounds a number down:
+
 ```js
-var num1 = Math.floor(2.5) //num1 is 2
-var num2 = Math.floor(2.4) //num2 is 2
-var num3 = Math.floor(-2.9) //num3 is -3
-var num4 = Math.floor(-2.1) //num4 is -3copy
+var num1 = Math.floor(2.5); //num1 is 2
+var num2 = Math.floor(2.4); //num2 is 2
+var num3 = Math.floor(-2.9); //num3 is -3
+var num4 = Math.floor(-2.1); //num4 is -3copy
 ```
+
 ### **Math.ceil(num)**
 
 This always rounds a number up:
+
 ```js
-var num1 = Math.ceil(2.5) //num1 is 3
-var num2 = Math.ceil(2.4) //num2 is 3
-var num3 = Math.ceil(-2.9) //num3 is -2
-var num4 = Math.ceil(-2.1) //num4 is -2copy
+var num1 = Math.ceil(2.5); //num1 is 3
+var num2 = Math.ceil(2.4); //num2 is 3
+var num3 = Math.ceil(-2.9); //num3 is -2
+var num4 = Math.ceil(-2.1); //num4 is -2copy
 ```
+
 ### **Math.trunc(num)**
 
 This always truncates the number, chopping off the decimal regardless of what the number is:
+
 ```js
-var num1 = Math.trunc(2.5) //num1 is 2
-var num2 = Math.trunc(2.4) //num2 is 2
-var num3 = Math.trunc(-2.9) //num3 is -2
-var num4 = Math.trunc(-2.1) //num4 is -2
+var num1 = Math.trunc(2.5); //num1 is 2
+var num2 = Math.trunc(2.4); //num2 is 2
+var num3 = Math.trunc(-2.9); //num3 is -2
+var num4 = Math.trunc(-2.1); //num4 is -2
 ```
-````
+
+### A for loop is usually used when you want to repeat a process a known number of times.
+
+```js
+for (var i = 0; i < 10; i++) {
+  console.log("Scott is a dookie butt");
+}
+```
+
+### A while loop is usually used when you want to repeat a process until some condition is met.
+
+```js
+var num = 0;
+while(num < 10;) {
+    console.log("Scott is a dookie butt");
+    i++;
+}
+```
