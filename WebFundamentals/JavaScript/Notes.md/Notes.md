@@ -116,3 +116,5 @@ while(num < 10;) {
     i++;
 }
 ```
+
+### Loops are cool!
