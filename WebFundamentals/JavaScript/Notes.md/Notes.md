@@ -118,3 +118,9 @@ while(num < 10;) {
 ```
 
 ### Loops are cool!
+
+```js
+for (var count = 0; count < 10; count++) {
+  console.log(count);
+}
+```
