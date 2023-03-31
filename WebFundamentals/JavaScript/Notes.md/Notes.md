@@ -165,3 +165,8 @@ function makeRangeIterator(start = 0, end = Infinity, step = 1) {
   return rangeIterator;
 }
 ```
+
+```js
+var = 0
+for (var = 0 )
+```
