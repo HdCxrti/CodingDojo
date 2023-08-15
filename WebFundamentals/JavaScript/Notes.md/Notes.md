@@ -99,24 +99,6 @@ var num3 = Math.trunc(-2.9); //num3 is -2
 var num4 = Math.trunc(-2.1); //num4 is -2
 ```
 
-### A for loop is usually used when you want to repeat a process a known number of times.
-
-```js
-for (var i = 0; i < 10; i++) {
-  console.log("Scott is a dookie butt");
-}
-```
-
-### A while loop is usually used when you want to repeat a process until some condition is met.
-
-```js
-var num = 0;
-while(num < 10;) {
-    console.log("Scott is a dookie butt");
-    i++;
-}
-```
-
 ### Loops are cool!
 
 ```js
@@ -169,4 +151,22 @@ function makeRangeIterator(start = 0, end = Infinity, step = 1) {
 ```js
 var = 0
 for (var = 0 )
+```
+
+### A for loop is usually used when you want to repeat a process a known number of times.
+
+```js
+for (var i = 0; i < 10; i++) {
+  console.log("Scott is a dookie butt");
+}
+```
+
+### A while loop is usually used when you want to repeat a process until some condition is met.
+
+```js
+var num = 0;
+while(num < 10;) {
+    console.log("Scott is a dookie butt");
+    i++;
+}
 ```
